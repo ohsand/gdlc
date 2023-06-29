@@ -5362,6 +5362,30 @@ footer .footer-social .copyright {
   text-align: center;
 }
 
-/* Version 1.1.0. 
- * Theme credit ElaThemes.com */
+.gallery {
+  margin: 00px 5px;
+}
+
+.gallery img {
+  margin-bottom: 20px;
+}
+/* 
+header .container {
+  margin: 0 !important;
+  width: 100%;
+} */
+@media (max-width: 1200px) {
+  .navigation-top-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
+
+@media (max-width: 992) {
+  .navigation-main {
+    height: 100px !important;
+    display: flex;
+  }
+}
 
